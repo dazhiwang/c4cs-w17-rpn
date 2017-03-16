@@ -5,6 +5,6 @@ language: python
 python:
   - "3.5"
 
-#specify what to do
+#specify the task
 script: make test
 

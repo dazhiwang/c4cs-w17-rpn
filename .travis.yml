@@ -1,0 +1,10 @@
+#specify the language
+language: python
+
+#specify the version
+python:
+  - "3.5"
+
+#specify what to do
+script: make test
+

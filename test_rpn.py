@@ -10,3 +10,6 @@ class TestBasics(unittest.TestCase):
 	def test_exponentiation(self):
                 result = rpn.calculate('5 3 ^')
                 self.assertEqual(125, result)
+	def test_ifloordiv(self):
+		result = rpn.calculate('5 3 //')
+		self.assertEqual(1, result)

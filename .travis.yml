@@ -9,7 +9,8 @@ install:
   - pip install python-coveralls
 
 #specify the task
-script: make test
+script: coverage run -m unittest
+
 
 
 after_success:

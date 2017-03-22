@@ -6,7 +6,7 @@ python:
   - "3.5"
 
 install:
-  - pip install ruby-coveralls
+  - pip install coveralls
 
 #specify the task
 script: make test
